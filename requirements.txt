@@ -1,0 +1,4 @@
+wandb>=0.17
+sacrebleu>=2.4
+rouge-score>=0.1.2
+Levenshtein>=0.25

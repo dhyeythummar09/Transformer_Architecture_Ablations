@@ -1,0 +1,28 @@
+{
+  "primary_chunk_metrics": {
+    "evaluation_unit": "independent_64_character_chunks",
+    "num_sequences": 5487,
+    "sequence_accuracy": 0.4607253508292327,
+    "bit_level_accuracy": 0.9290468738684324,
+    "levenshtein_distance": 1.7634408602150538,
+    "sentence_bleu": 81.70039389649699,
+    "rouge_l": 0.9189008575593614,
+    "eos_rate": 1.0,
+    "avg_generated_length": 18.104246400583197
+  },
+  "secondary_full_line_metrics": {
+    "evaluation_unit": "reconstructed_original_test_lines_from_nonoverlapping_chunks",
+    "num_sequences": 500,
+    "sequence_accuracy": 0.024,
+    "bit_level_accuracy": 0.7688366653456318,
+    "levenshtein_distance": 19.352,
+    "sentence_bleu": 80.71494941448067,
+    "rouge_l": 0.9104602186312993
+  },
+  "notes": {
+    "primary_metric_matches_friend_protocol": true,
+    "chunk_chars": 64,
+    "stride_chars": 64,
+    "greedy_decoding": true
+  }
+}

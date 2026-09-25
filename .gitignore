@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# W&B local run files
+wandb/
+
+# Logs
+logs/
+*.log
+
+# Dataset
+data/
+
+# Large model checkpoints
+outputs/*.pt
+outputs/*.pth
+outputs/*.ckpt
+outputs/*.bin
+
+# Cached tensors / preprocessing artifacts
+outputs/*cache*
+outputs/tokenized_*.pt
+*.npy
+*.npz
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging
+dist/
+build/
+*.egg-info/
+
+# Coverage / testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Optional local secrets
+.env
+.env.*
