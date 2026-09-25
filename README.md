@@ -193,7 +193,7 @@ The large increase in loss indicates that the model strongly depends on the ciph
 │   └── metrics_c5.json
 │
 ├── quick_check.py
-├── run_all_rtx.py
+├── run_experiments.py
 ├── requirements.txt
 ├── Writeup_A1_ANLP.pdf
 └── README.md
@@ -323,7 +323,8 @@ Implemented manually:
 - warmup + cosine learning-rate scheduling
 - greedy autoregressive decoding
 
-## Report
+## Experiments Report 
+[`Report.pdf`](./Report.pdf)
 
 The full experimental write-up is available in:
 
